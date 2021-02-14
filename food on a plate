@@ -1,0 +1,68 @@
+background(186, 145, 20); // wooden table
+ellipse(200, 200, 350, 350); // plate
+ellipse(200, 200, 300, 300); 
+
+//grape stem
+strokeWeight(3);
+line(278,162,278,193);
+
+//grapes
+fill(54, 3, 84);
+ellipse(247,207,50,50);
+ellipse(280,207,50,50);
+ellipse(305,207,50,50);
+ellipse(280,240,40,40);
+ellipse(249,240,40,40);
+ellipse(304,240,40,40);
+ellipse(263,265,30,30);
+ellipse(288,265,30,30);
+ellipse(270,283,20,20);
+ellipse(284,283,20,20);
+ellipse(278,295,10,10);
+
+//cheeseburer
+
+//buns
+fill(242, 160, 97);
+arc(125,189,100,100,183,355);
+arc(125,189,100,100,77,441);
+
+
+//meat patty
+translate(-4,10);
+fill(79, 58, 41);
+rect(75,162,109,20,30);
+
+//cheese
+fill(255, 204, 0);
+rect(80,184,102,14);
+
+//pizza
+fill(255, 232, 173);
+ellipse(200,94,100,100);
+
+fill(255, 0, 0);
+ellipse(200,94,90,90);
+
+fill(247, 216, 139);
+ellipse(200,94,80,80);
+
+fill(194, 10, 19);
+ellipse(200,70,20,14);
+ellipse(200,119,20,14);
+ellipse(184,93,20,14);
+ellipse(222,93,20,14);
+
+translate(49,-31);
+line(100,124,202,125);
+
+translate(-31,5);
+line(184,168,182,72);
+
+line(215,155,147,83);
+line(215,90,147,146);
+
+//egg
+fill(255, 252, 224);
+ellipse(168,310,68,46);
+
