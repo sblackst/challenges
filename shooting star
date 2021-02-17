@@ -1,0 +1,15 @@
+var xPos = 24;
+var yPos = 21;
+var starW = 10;
+var starH = 10;
+
+draw = function() {
+    background(29, 40, 115);
+    fill(255, 242, 0);
+    ellipse(xPos, yPos, starW, starH);
+    
+    xPos += 7;
+    yPos += 7;
+    starW += 0.5;
+    starH += 0.5;
+};
